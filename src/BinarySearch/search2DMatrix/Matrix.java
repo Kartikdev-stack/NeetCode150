@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.search2DMatrix;
 
 public class Matrix {
     public static void main(String[] args) {

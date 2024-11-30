@@ -1,4 +1,5 @@
-import javax.print.DocFlavor;
+package ArraysHashing.validAnagram;
+
 import java.util.HashMap;
 // Given two strings s and t, return true if the two strings are anagrams of each other, otherwise return false.
 

@@ -1,4 +1,4 @@
-package minInSortedArray;
+package BinarySearch.minInSortedArray;
 // Optimised approach with Binary Search
 
 

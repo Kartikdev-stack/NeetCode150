@@ -1,4 +1,4 @@
-package ContainsDuplicate;
+package ArraysHashing.ContainsDuplicate;
 
 
 //Brute Force Approach

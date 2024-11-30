@@ -1,4 +1,4 @@
-package minInSortedArray;
+package BinarySearch.minInSortedArray;
 // Brute Force Approach O(N)
 // Find Minimum in Rotated Sorted Array
 

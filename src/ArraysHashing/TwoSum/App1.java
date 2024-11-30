@@ -1,8 +1,6 @@
-package TwoSum;
+package ArraysHashing.TwoSum;
 // Brute Force
 //Given an array of integers nums and an integer target, return the indices i and j such that nums[i] + nums[j] == target and i != j.
-import java.lang.reflect.AnnotatedArrayType;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class App1 {
