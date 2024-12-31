@@ -63,6 +63,7 @@ public class MinHeap<T extends Comparable<T>> {
         T root=list.get(0);
         swap(0,list.size()-1);  // swap the first and last element
         list.remove(list.size()-1);
+        heapifyDown(0);
         return root;
     }
 
@@ -113,5 +114,7 @@ public class MinHeap<T extends Comparable<T>> {
         System.out.println("Heap after Removal: ");
         minHeap.printHeap();
     }
-
+//
+//    public ArrayList heapSort() {
+//    }
 }
