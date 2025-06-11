@@ -32,7 +32,7 @@ public class cycleDetection {
 
         }
 
-        return false; // even if one of the pointers hit null means end of loop clearly means the loop is rotating
+        return false; // even if one of the pointers hit null means end of loop clearly means the loop is not rotating
     }
 
 }

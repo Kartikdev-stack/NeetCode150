@@ -29,17 +29,20 @@ public class ReverseLL {
         }
     }
     public static ListNode reverseLL(ListNode head){
-        ListNode prev=null;
         ListNode current=head;
+        ListNode previous=null;
         ListNode next;
+
+        // 0->1->2->3
 
         while(current!=null){
             next=current.next;
-            current.next=prev;
-            prev=current;
+            current.next=previous;
+            previous=current;
             current=next;
+
         }
-      return prev;
+        return previous;
     }
 
 }
